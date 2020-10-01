@@ -44,3 +44,35 @@
     margin: 0px 15px;
     justify-content: center;
 }
+
+/* Instagram feed */
+.instagram_feed{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.instagram_gallery {
+    width: auto;
+    display: inline-flex;
+    overflow-x: scroll;
+}
+
+/* .instagram_feed--overflow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.instagram_gallery a {
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.instagram_gallery a img {
+    width: 100%;
+}
