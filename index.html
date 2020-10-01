@@ -7,8 +7,43 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://www.intastellarsolutions.com/js/instagram/jquery.instagramFeed.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="nav">
+            <a href="/">About us</a>
+            <a href="/">News</a>
+            <a href="/">Tour</a>
+            <a href="/">Social Media</a>
+            <a href="/">Merch</a>
+        </nav>
+        <div class="bg_image"></div>
+        <div class="logo_container">
+            <img src="/assets/logo.png" class="logo" alt="logo af bandet">
+        </div>
+        <iframe class="spotplayer" src="https://open.spotify.com/embed/artist/7rHGFWPlIoy2qOWBDLAWNt" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </header>
+    <main>
+        <section>
+            <div id="instagram_container"></div>    
+        </section>
+    </main>
+    <script>window.addEventListener("load", function(){
+        $.instagramFeed({
+            'username': 'thecreepshow_official',
+            'container': "#instagram_container",
+            'lazy_load': true,
+            'display_profile': false,
+            'display_biography': false,
+            'display_igtv': false,
+            'styling': true,
+            'display_gallery': true,
+            'styling': false,
+            'margin': 0.5,
+            'items': '5'
+        });
+    });</script>
 </body>
 </html>
