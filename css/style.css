@@ -61,6 +61,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-self: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
 }
 
 .nav a{
@@ -83,6 +86,8 @@
     display: inline-flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    border-top: 8px solid #F8F125;
+    border-bottom: 8px solid #F8F125;
 }
 
 .instagram_feed--overflow{

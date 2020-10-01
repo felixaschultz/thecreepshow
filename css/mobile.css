@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 900px){
+@media screen and (min-width: 300px) and (max-width: 900px){
     /* Header */
     .logo{
         width: 90%;
@@ -7,13 +7,57 @@
     /* Navigation */
     .menu_container{
         display: block;
+        position: fixed;
+        z-index: 2;
+        top: 10px;
+        left: 10px;
     }
 
     .nav{
+        position: fixed;
+        top: 0;
+        text-align: center;
         height: 0px;
         overflow: hidden;
         display: block;
-        transition: all .5s ease-in-out;
+        transition: height .5s ease-in-out;
+        width: 100%;
+        background: rgba(0,0,0,.5);
+        border-top: 4px solid #F8F125;
+    }
+
+    .nav a{
+        display: block;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1210px){
+    /* Header */
+    .logo{
+        width: 55%;
+    }
+
+    /* Navigation */
+    .menu_container{
+        display: block;
+        position: fixed;
+        z-index: 2;
+        top: 10px;
+        left: 10px;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        display: block;
+        transition: height .5s ease-in-out;
+        width: 100%;
+        background: rgba(0,0,0,.5);
+        border-top: 4px solid #F8F125;
     }
 
     .nav a{
