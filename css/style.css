@@ -21,6 +21,8 @@
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
+    transition: all .5s ease-in-out;
+    z-index: 2;
 }
 
 .spotplayer{
@@ -143,7 +145,7 @@
 .footer_content{
     padding: 15px;
     color: rgb(58, 58, 58);
-    background: #F8F125;
+    /* background: #F8F125; */
     text-align: center;
 }
 
