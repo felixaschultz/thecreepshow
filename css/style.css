@@ -34,13 +34,14 @@
 
 /* Navigation */
 .menu_container {
-    width: 40px;
-    height: 40px;
+    width: 51px;
+    height: auto;
     float: left;
     display: none;
-    padding: 5px;
+    padding: 10px;
     position: relative;
     z-index: 1;
+    background: rgba(0, 0, 0, .8);
 }
 
 .menu-line {
@@ -115,4 +116,16 @@
 
 .instagram_profile_image{
     border-radius: 50%;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+}
+
+.footer_content{
+    padding: 15px;
+    color: rgb(58, 58, 58);
+    background: #F8F125;
+    text-align: center;
 }
