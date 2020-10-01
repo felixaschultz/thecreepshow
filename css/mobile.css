@@ -23,7 +23,7 @@
         transition: height .5s ease-in-out;
         width: 100%;
         background: rgba(0,0,0,.5);
-        border-top: 4px solid #F8F125;
+        border-top: 6px solid #F8F125;
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         -moz-backdrop-filter: blur(10px);
