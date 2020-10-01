@@ -57,14 +57,13 @@
 .instagram_gallery {
     width: auto;
     display: inline-flex;
-    overflow-x: scroll;
 }
 
-/* .instagram_feed--overflow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.instagram_feed--overflow{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
 
 .instagram_gallery a {
     display: block;
