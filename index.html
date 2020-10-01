@@ -56,14 +56,26 @@
     <script>
         
         window.addEventListener("scroll", function(e){
-            if(window.scrollY > 370){
-                document.querySelector(".logo_container .logo").style.position = "fixed";
-                document.querySelector(".logo_container .logo").style.top = "0px";
-                document.querySelector(".logo_container .logo").style.width = "15%";
-            }else if(window.scrollY <= 369){
-                document.querySelector(".logo_container .logo").style.position = "absolute";
-                document.querySelector(".logo_container .logo").style.top = "";
-                document.querySelector(".logo_container .logo").style.width = "30%";
+            if(window.innerWidth >= 375 && window.innerWidth <= 900){
+                if(window.scrollY > 370){
+                    document.querySelector(".logo_container .logo").style.position = "fixed";
+                    document.querySelector(".logo_container .logo").style.top = "0px";
+                    document.querySelector(".logo_container .logo").style.width = "40%";
+                }else if(window.scrollY <= 369){
+                    document.querySelector(".logo_container .logo").style.position = "absolute";
+                    document.querySelector(".logo_container .logo").style.top = "";
+                    document.querySelector(".logo_container .logo").style.width = "90%";
+                }
+            }else{
+                if(window.scrollY > 370){
+                    document.querySelector(".logo_container .logo").style.position = "fixed";
+                    document.querySelector(".logo_container .logo").style.top = "0px";
+                    document.querySelector(".logo_container .logo").style.width = "15%";
+                }else if(window.scrollY <= 369){
+                    document.querySelector(".logo_container .logo").style.position = "absolute";
+                    document.querySelector(".logo_container .logo").style.top = "";
+                    document.querySelector(".logo_container .logo").style.width = "30%";
+                }
             }
             //console.log(document.querySelector(".logo_container").offsetTop);
         });
