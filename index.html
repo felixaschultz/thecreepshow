@@ -43,10 +43,9 @@
         </section>
     </main>
     <footer>
-        
+
     </footer>
     <script>
-
         $(window).on('load', function(){
             $.instagramFeed({
                 'username': 'thecreepshow_official',
@@ -79,66 +78,6 @@
                 document.querySelectorAll(".menu-line")[0].style.opacity = "1";
             }
         });
-
-	/* function openNav() {
-		var dropdown = document.getElementsByClassName("dropdown-wrapper")[0];
-		console.log(document.getElementById("menu").style.width);
-		if(document.getElementById("menu").style.width == ""){
-			document.getElementById("menu").style.width = "100%";
-			document.getElementsByClassName("menu")[0].classList.add("open");
-			document.getElementsByClassName("header")[0].style.background = "rgba(4, 64, 127, 1.00)";
-			document.body.style.overflow = "hidden";
-		}else if(document.getElementById("menu").style.width == "0%"){
-			document.getElementById("menu").style.width = "100%";
-			document.body.style.overflow = "hidden";
-			document.getElementsByClassName("menu")[0].classList.add("open");
-			document.getElementsByClassName("header")[0].style.background = "rgba(4, 64, 127, 1.00)";
-		}else{
-			dropdown.style.display = "none";
-			document.getElementById("menu").style.width = "0%";
-			document.body.style.overflow = "scroll";
-			document.getElementsByClassName("menu")[0].classList.remove("open");
-			document.getElementsByClassName("header")[0].style.background = "rgba(4, 64, 127, 0.88)";
-		}
-
-	} */
-
-    /* function openWrapper(){
-        //console.log("Test");
-        var dropdown = document.getElementsByClassName("nav")[0];
-        var menu = document.getElementById("menu");
-        if(dropdown.style.display == "none"){
-            dropdown.style.display = "block";
-        }else if(!dropdown.style.display){
-            dropdown.style.display = "block";
-        }else if(menu.style.maxHeight == "0px"){
-            dropdown.style.display = "none"; 
-        }else{
-            dropdown.style.display = "none";
-        }
-    }
-
-    document.getElementById("cv-menu").addEventListener("click", function(){
-        if(window.clientWidth || window.innerWidth > 900){
-            openWrapper();
-        }else{
-            if(document.querySelector(".small-menu").style.height == "100%"){
-                document.querySelector(".small-menu").style.height = "0";
-            }else{
-                document.querySelector(".small-menu").style.height = "100%";
-            }
-            
-        }
-    });
-
-    document.getElementsByClassName("back")[0].addEventListener("click", function(){
-        var dropdown = document.getElementsByClassName("dropdown-wrapper")[0];
-        if(dropdown.style.display == "block"){
-            dropdown.style.display = "none";  
-        }
-    }); */
-
-
     </script>
 </body>
 </html>
