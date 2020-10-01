@@ -75,24 +75,22 @@
 .instagram_feed{
     width: 100%;
     height: auto;
-    background: #fff;
-    /* display: flex;
-    justify-content: center; */
+    /* background: #fff; */
 }
 
 .instagram_gallery {
-    width: auto;
-    display: inline-flex;
-}
-
-.instagram_feed--overflow{
     width: 100%;
+    display: inline-flex;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
+.instagram_feed--overflow{
+    width: 100%;
+}
+
 .instagram_gallery a {
-    display: block;
+    display: inline-table;
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -100,4 +98,19 @@
 
 .instagram_gallery a img {
     width: 100%;
+}
+
+.instagram_profile{
+    text-align: center;
+    padding: 45px;
+    color: #fff;
+}
+
+.instagram_profile a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.instagram_profile_image{
+    border-radius: 50%;
 }
