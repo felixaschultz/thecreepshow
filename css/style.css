@@ -10,6 +10,8 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     opacity: .5;
 }
 
@@ -26,11 +28,35 @@
     bottom: 0;
 }
 
+.header--main{
+    z-index: 1;
+}
+
 /* Navigation */
+.menu_container {
+    width: 40px;
+    height: 40px;
+    float: left;
+    display: none;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-line {
+    width: 100%;
+    height: 3px;
+    margin: 8px 0px;
+    background: #fff;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 .nav{
     position: absolute;
     top: 30px;
     left: 50%;
+    z-index: 1;
     transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
