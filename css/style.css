@@ -32,7 +32,11 @@
 }
 
 .header--main{
+    position: absolute;
+    top: 30px;
     z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Navigation */
@@ -57,11 +61,7 @@
 }
 
 .nav{
-    position: absolute;
-    top: 30px;
-    left: 50%;
     z-index: 1;
-    transform: translateX(-50%);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-self: center;
@@ -73,6 +73,17 @@
     display: inline-flex;
     margin: 0px 15px;
     justify-content: center;
+}
+
+.socailmedia{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.socailmedia .icons{
+    width: 25%;
+    justify-self: center;
+    align-self: center;
 }
 
 /* Instagram feed */

@@ -54,6 +54,10 @@
         width: 100%;
         padding: 15px;
     }
+
+    .icons{
+        width: 25%;
+    }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1210px){

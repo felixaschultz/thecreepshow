@@ -21,10 +21,19 @@
             <nav class="nav">
                 <a href="/">About us</a>
                 <a href="/">News</a>
-                <a href="/">Tour</a>
+                <a href="/">Tour dates</a>
                 <a href="/">Social Media</a>
                 <a href="/">Merch</a>
             </nav>
+            <section class="socailmedia">
+                <a href="/" class="icons"><img src="/assets/bandcamp logo.png" alt="" srcset=""></a>
+                <a href="/" class="icons"><img src="/assets/facebook logo.png" alt=""></a>
+                <a href="/" class="icons"><img src="/assets/insta logo.png" alt=""></a>
+                <a href="/" class="icons"><img src="/assets/itunes logo.png" alt="" srcset=""></a>
+                <a href="/" class="icons"><img src="/assets/spotify logo.png" alt="" srcset=""></a>
+                <a href="/" class="icons"><img src="/assets/twitter logo.png" alt="" srcset=""></a>
+                <a href="/" class="icons"><img src="/assets/youtube logo.png" alt="" srcset=""></a>
+            </section>
         </section>
         <div class="bg_image"></div>
         <div class="logo_container">
@@ -44,7 +53,7 @@
             <div class="overlay"></div>
             <section class="content ppad">
                 <header>
-                    <h2>Events</h2>
+                    <h2>Tour dates</h2>
                 </header>
                 <article class="event">
                     <section class="event__info">
@@ -88,11 +97,13 @@
             if(window.innerWidth >= 375 && window.innerWidth <= 900){
                 if(window.scrollY > 370){
                     document.querySelector(".logo_container .logo").style.position = "fixed";
+                    /* document.querySelector(".header--main").style.position = "fixed"; */
                     document.querySelector(".logo_container .logo").style.top = "0px";
                     document.querySelector(".logo_container .logo").style.width = "40%";
                     document.querySelector(".nav a").style.marginTop = "90px";
                 }else if(window.scrollY <= 369){
                     document.querySelector(".logo_container .logo").style.position = "absolute";
+                    /* document.querySelector(".header--main").style.position = "absolute"; */
                     document.querySelector(".logo_container .logo").style.top = "";
                     document.querySelector(".logo_container .logo").style.width = "90%";
                     document.querySelector(".nav a").style.marginTop = "30px";
@@ -100,11 +111,13 @@
             }else{
                 if(window.scrollY > 370){
                     document.querySelector(".logo_container .logo").style.position = "fixed";
+                    /* document.querySelector(".header--main").style.position = "fixed"; */
                     document.querySelector(".logo_container .logo").style.top = "0px";
                     document.querySelector(".logo_container .logo").style.width = "15%";
                     document.querySelector(".nav a").style.marginTop = "90px";
                 }else if(window.scrollY <= 369){
                     document.querySelector(".logo_container .logo").style.position = "absolute";
+                    /* document.querySelector(".header--main").style.position = "absolute"; */
                     document.querySelector(".logo_container .logo").style.top = "";
                     document.querySelector(".logo_container .logo").style.width = "30%";
                     document.querySelector(".nav a").style.marginTop = "30px";
