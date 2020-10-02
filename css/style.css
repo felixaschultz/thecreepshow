@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    z-index: 100;
 }
 
 .bg_image{
@@ -157,6 +158,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
+    text-align: left;
 }
 
 .event__title{
