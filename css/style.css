@@ -224,6 +224,10 @@
     position: relative;
 }
 
+.event--container__header{
+    font-size: 40px;
+}
+
 .overlay{
     background: rgba(0, 0, 0, .6);
     width: 100%;
