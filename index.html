@@ -28,7 +28,7 @@
         </section>
         <div class="bg_image"></div>
         <div class="logo_container">
-            <img src="/assets/logo.png" class="logo" alt="logo af bandet">
+            <a href="/"><img src="/assets/logo.png" class="logo" alt="logo af bandet"></a>
         </div>
         <iframe class="spotplayer" src="https://open.spotify.com/embed/artist/7rHGFWPlIoy2qOWBDLAWNt" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </header>
@@ -80,6 +80,8 @@
                     document.querySelector(".logo_container .logo").style.width = "30%";
                     document.querySelector(".nav a").style.marginTop = "30px";
                 }
+
+                document.querySelector(".nav a").style.marginTop = "";
             }
             //console.log(document.querySelector(".logo_container").offsetTop);
         });
