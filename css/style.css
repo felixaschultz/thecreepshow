@@ -187,15 +187,26 @@
     padding: 20px 30px;
     justify-self: right;
     border-radius: 10px;
+    transition: all .5s ease-in-out;
 }
 
 .event__btn{
     display: block;
+    transition: all .5s ease-in-out;
 }
 
 .event__info, .event__btn{
     justify-self: center;
     align-self: center;
+}
+
+.event__ticket:hover{
+    background: #db0b20;
+}
+
+.event__btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 2px rgba(0,0,0,.14), 0 2px 4px rgba(0,0,0,.28);
 }
 
 .event--container{
@@ -241,6 +252,10 @@
     font-size: 16px;
 }
 
+.subscribe_btn:hover{
+    background: #e6de0e;
+}
+
 .newsletter__form{
     width: 50%;
     float: right;
@@ -274,7 +289,7 @@
 .footer_social{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    border-top: 2px solid #F8F125;
 }
 
 .icons{
