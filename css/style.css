@@ -215,6 +215,37 @@
     position: absolute;
 }
 
+/* Newsletter */
+
+.newsletter{
+    float: right;
+    color: #F8F125;
+    width: 50%;
+    padding: 15px;
+    text-align: right;
+}
+
+.subscribe_input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+.subscribe_btn{
+    width: auto;
+    padding: 16px 50px;
+    display: block;
+    background: #F8F125;
+    float: right;
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.newsletter__form{
+    width: 50%;
+    float: right;
+}
+
 /* Padding */
 .ppad{
     padding: 150px 0px;
