@@ -35,6 +35,14 @@
         margin: 30px 0px;
     }
 
+    .socailmedia{
+        grid-column: 2/3;
+    }
+
+    .socailmedia .icons{
+        width: 70%;
+    }
+
     /* Content */
     .content{
         width: 100%;
@@ -91,5 +99,13 @@
     .nav a{
         display: block;
         margin: 30px 0px;
+    }
+
+    .socailmedia{
+        grid-column: 1/3;
+    }
+
+    .socailmedia .icons{
+        width: 70%;
     }
 }
