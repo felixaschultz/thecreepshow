@@ -209,6 +209,11 @@
     box-shadow: 0 0 2px rgba(0,0,0,.14), 0 2px 4px rgba(0,0,0,.28);
 }
 
+.event__ticket--soldout{
+    border: 1px solid #fff;
+    background: none;
+}
+
 .event--container{
     width: 100%;
     height: auto;
