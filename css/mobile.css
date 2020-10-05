@@ -59,6 +59,12 @@
         padding: 15px;
     }
 
+    /* Merch */
+
+    .merch-item{
+        width: 100%;
+    }
+
     /* Instagram */
 
     .instagram_gallery a{
