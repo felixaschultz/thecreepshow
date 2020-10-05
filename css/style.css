@@ -95,8 +95,7 @@
 
 .instagram_gallery {
     width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
     border-top: 8px solid #F8F125;
     border-bottom: 8px solid #F8F125;
     padding: 0px 15px;
