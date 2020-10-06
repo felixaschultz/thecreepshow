@@ -90,15 +90,6 @@
     align-self: center;
 }
 
-/* About us section */
-.aboutus{
-    width: 100%;
-    text-align: center;
-    color: #F8F125;
-    font-family: horrorfont;
-   
-}
-
 /* Instagram feed */
 .instagram_feed{
     width: 100%;
@@ -109,8 +100,8 @@
 .instagram_gallery {
     width: 100%;
     overflow: hidden;
-    border-top: 8px solid #F8F125;
-    border-bottom: 8px solid #F8F125;
+    border-top: 8px solid var(--horror-yellow);
+    border-bottom: 8px solid var(--horror-yellow);
     padding: 0px 15px;
 }
 
@@ -147,7 +138,7 @@
 /* Loader style */
 .loader {
     border: 10px solid #a6a6a6; /* Light grey */
-    border-top: 10px solid #F8F125; /* Yellow */
+    border-top: 10px solid var(--horror-yellow); /* Yellow */
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -172,7 +163,7 @@
 }
 
 .content h2{
-    color: #F8F125;
+    color: var(--horror-yellow);
 }
 
 /* Event BEM */
@@ -255,7 +246,7 @@
 
 .newsletter{
     float: right;
-    color: #F8F125;
+    color: var(--horror-yellow);
     width: 50%;
     padding: 15px;
     text-align: right;
@@ -271,7 +262,7 @@
     width: auto;
     padding: 16px 50px;
     display: block;
-    background: #F8F125;
+    background: var(--horror-yellow);
     float: right;
     margin: 5px 0px;
     font-size: 16px;
@@ -337,14 +328,29 @@
     overflow: hidden;
     padding: 15px;
     text-align: center;
-    border-top: 4px solid #F8F125;
+    border-top: 4px solid var(--horror-yellow);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
 }
 
+.merch-item__price{
+    margin-top: 50px;
+}
+
 .merch-item:hover .merch-item__info{
     height: 100%;
+}
+
+.merch-item__btn{
+    text-decoration: none;
+    display: block;
+    width: auto;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 50px;
 }
 
 /* Footer */
@@ -355,7 +361,7 @@
 .footer_content{
     padding: 15px;
     color: rgb(58, 58, 58);
-    /* background: #F8F125; */
+    /* background: var(--horror-yellow); */
     text-align: center;
 }
 
@@ -370,7 +376,7 @@
 .footer_social{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-top: 2px solid #F8F125;
+    border-top: 2px solid var(--horror-yellow);
 }
 
 .icons{
