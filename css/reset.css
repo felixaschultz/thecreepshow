@@ -1,3 +1,7 @@
+:root{
+    --horror-yellow: "#F8F125";
+}
+
 *{
     box-sizing: border-box;
 }
