@@ -111,16 +111,21 @@
         margin: 5px 0px;
         font-size: 16px;
     }
-    
-    .aboutus_content{
-        width: 100%;
-        grid-column: 1;
-        
-    }
 
     .newsletter__form{
         width: 100%;
         float: right;
+    }
+
+    /* About us */
+
+    .aboutus_content{
+        width: 100%;
+        grid-column: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        padding: 15px;
+        
     }
 }
 
@@ -167,5 +172,16 @@
 
     .content{
         width: 100%;
+    }
+
+    /* About us */
+
+    .aboutus_content{
+        width: 100%;
+        grid-column: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        padding: 15px;
+        
     }
 }
