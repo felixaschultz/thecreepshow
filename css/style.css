@@ -98,6 +98,7 @@
     font-family: horrorfont;
     font-size: 1.5pc;
     
+    
 }
 .aboutus_content{
     width: 900px;
@@ -106,6 +107,8 @@
     color: rgb(255,255,255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2pc;
+    font-style: italic;
+   
 }   
 
 /* Instagram feed */
