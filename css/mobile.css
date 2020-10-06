@@ -57,6 +57,7 @@
 
     .event__info, .event__btn{
         padding: 15px;
+        text-align: center;
     }
 
     /* Merch */
