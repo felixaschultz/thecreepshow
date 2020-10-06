@@ -99,19 +99,11 @@
     
 }
 .aboutus_content{
-    width: 1200px;
+    width: 900px;
     margin: auto;
     text-align: center;
     color: rgb(255,255,255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    break-after: auto;
-    
 }   
 
 /* Instagram feed */

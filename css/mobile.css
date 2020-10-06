@@ -121,9 +121,6 @@
 
     .aboutus_content{
         width: 100%;
-        grid-column: 1;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
         padding: 15px;
         
     }
@@ -178,9 +175,6 @@
 
     .aboutus_content{
         width: 100%;
-        grid-column: 2;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
         padding: 15px;
         
     }
