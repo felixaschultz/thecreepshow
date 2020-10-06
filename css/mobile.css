@@ -102,7 +102,7 @@
     }
     
     .subscribe_btn{
-        width: auto;
+        width: 100%;
         padding: 16px 50px;
         display: block;
         background: #F8F125;
