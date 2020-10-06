@@ -277,6 +277,10 @@
     float: right;
 }
 
+.newsletter h3{
+    font-weight: 200;
+}
+
 /* Padding */
 .ppad{
     padding: 150px 0px;

@@ -66,6 +66,10 @@
         margin: 10px 0px;
     }
 
+    .merch{
+        padding: 15px;
+    }
+
     /* Instagram */
 
     .instagram_gallery a{
@@ -152,5 +156,9 @@
 
     .socailmedia .icons{
         width: 70%;
+    }
+
+    .content{
+        width: 100%;
     }
 }
