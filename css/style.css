@@ -90,6 +90,30 @@
     align-self: center;
 }
 
+/* About us section */
+.aboutus{
+    width: 100%;
+    text-align: center;
+    color: #F8F125;
+    font-family: horrorfont;
+    
+}
+.aboutus_content{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    break-after: auto;
+    
+}   
+
 /* Instagram feed */
 .instagram_feed{
     width: 100%;
