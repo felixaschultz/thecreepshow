@@ -132,7 +132,7 @@
 
 .instagram_gallery a {
     width: calc(100% / 4);
-    height: auto;
+    height: 349px;
     object-fit: cover;
     float: left;
 }
