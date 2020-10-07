@@ -369,6 +369,14 @@
     margin-top: 50px;
 }
 
+/* Skew */
+.skew{
+    transform: skewY(-3deg) translateY(-11px);
+}
+
+.skew-invert{
+    transform: skewY(3deg) translateY(11px);
+}
 /* Footer */
 .footer{
     width: 100%;
