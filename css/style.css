@@ -376,7 +376,7 @@
 
 /* Skew */
 .skew{
-    transform: skewY(-3deg) translateY(-11px);
+    transform: skewY(-3deg) translateY(-39px);
 }
 
 .skew-invert{
