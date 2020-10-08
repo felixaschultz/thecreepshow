@@ -48,8 +48,10 @@
     /* Figurer */
 
     .looking-over{
-        bottom: 63px;
+        bottom: 151px;
         width: 35%;
+        transform: translateX(0%);
+        left: 25px;
     }
 
     .bat{

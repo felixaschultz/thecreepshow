@@ -48,10 +48,12 @@
 
 .looking-over{
     position: absolute;
-    bottom: 44px;
+    bottom: 187px;
     z-index: 1;
     width: 20%;
-    right: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
 }
 
 .figurer-container{
@@ -415,6 +417,7 @@
 /* Footer */
 .footer{
     width: 100%;
+    position: relative;
 }
 
 .footer_content{
