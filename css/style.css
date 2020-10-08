@@ -66,6 +66,7 @@
     width: 25%;
     left: 0;
     top: 40px;
+    pointer-events: none;
 }
 
 .bat{
@@ -73,6 +74,7 @@
     width: 25%;
     left: 55%;
     top: -160px;
+    pointer-events: none;
 }
 
 /* Navigation */
