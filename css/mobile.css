@@ -45,6 +45,21 @@
         width: 100%;
     }
 
+    /* Figurer */
+
+    .looking-over{
+        bottom: 63px;
+        width: 35%;
+    }
+
+    .bat{
+        width: 50%;
+    }
+
+    .walking-zombie{
+        width: 33%;
+    }
+
     /* Content */
     .content{
         width: 100%;

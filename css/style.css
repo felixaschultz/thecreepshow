@@ -30,6 +30,7 @@
     z-index: 2;
 }
 
+
 .spotplayer{
     position: absolute;
     bottom: 0;
@@ -41,6 +42,35 @@
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+/* Figurer */
+
+.looking-over{
+    position: absolute;
+    bottom: 44px;
+    z-index: 1;
+    width: 20%;
+    right: 30px;
+}
+
+.figurer-container{
+    position: relative;
+    z-index: 1;
+}
+
+.walking-zombie{
+    position: absolute;
+    width: 25%;
+    left: 0;
+    top: 40px;
+}
+
+.bat{
+    position: absolute;
+    width: 25%;
+    right: 50%;
+    top: -135px;
 }
 
 /* Navigation */
